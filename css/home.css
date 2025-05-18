@@ -1,0 +1,132 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  height: 90vh;
+  background-image: url("../images/greenbyte-bg.jpg");
+
+  font-family: "Poppins", sans-serif;
+  color: #d1ed8e;
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+/* Navbar */
+ul {
+  list-style-type: none;
+  margin: 70px 10rem 0px 5rem;
+  font-size: x-large;
+
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+}
+ul a {
+  text-decoration: none;
+  color: #d1ed8e;
+  border: 1px solid #d1ed8e;
+  border-radius: 30px 30px;
+  padding: 15px 20px;
+}
+
+ul a:hover {
+  /* border-bottom: 2px solid #d1ed8e;
+  padding-bottom: 5px; */
+  background-color: #d1ed8e;
+  color: #434c2f;
+  transition: all 0.3s ease;
+}
+.active {
+  background-color: #d1ed8e;
+  color: #434c2f;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  font-size: 6rem;
+  font-weight: 700;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+
+  font-size: 8rem;
+  margin: 5px;
+}
+
+.desc {
+  /* position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0.5rem 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  font-size: 2rem;
+  margin: 0px;
+}
+
+/* start button */
+button {
+  position: absolute;
+  bottom: 20%;
+  right: 15%;
+
+  color: #d1ed8e;
+  font-size: 25px;
+  background-color: transparent;
+  border: 1px solid #d1ed8e;
+  border-radius: 23px 23px;
+  padding: 7px 20px;
+  z-index: 1;
+}
+
+button:hover {
+  background-color: #d1ed8e;
+  cursor: pointer;
+  color: #434c2f;
+}
+
+/* footer line */
+.footer-line {
+  position: absolute;
+  bottom: 10%;
+
+  display: flex;
+}
+.line {
+  border-bottom: 1px solid #d1ed8e;
+  width: 65rem;
+  margin-bottom: 25px;
+}
+
+.oval {
+  border: 1px solid #d1ed8e;
+  border-radius: 15px 15px;
+  width: 5rem;
+  height: 1rem;
+  background-color: #d1ed8e;
+}
+
+/* footer */
+/* footer */
+footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  z-index: 1;
+}

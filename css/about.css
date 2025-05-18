@@ -1,0 +1,123 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  height: 90vh;
+  background-image: url("../images/greenbyte-bg.jpg");
+
+  font-family: "Poppins", sans-serif;
+  color: #d1ed8e;
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 70px 5rem 0px 5rem;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo-1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0px;
+}
+
+.logo-2 {
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+  font-size: x-large;
+
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+}
+ul a {
+  text-decoration: none;
+  color: #d1ed8e;
+  border: 1px solid #d1ed8e;
+  border-radius: 30px 30px;
+  padding: 15px 20px;
+}
+
+ul a:hover {
+  /* border-bottom: 2px solid #d1ed8e;
+  padding-bottom: 5px; */
+  background-color: #d1ed8e;
+  color: #434c2f;
+  transition: all 0.3s ease;
+}
+.active {
+  background-color: #d1ed8e;
+  color: #434c2f;
+}
+
+/* about us */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+
+  margin-top: 2rem;
+}
+
+main h1 {
+  font-size: 50px;
+}
+main p {
+  width: 50%;
+  /* margin: 15rem auto; */
+  padding: 2rem;
+  border: 1px solid #d1ed8e;
+  border-radius: 25px;
+
+  font-size: 25px;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* footer line */
+.footer-line {
+  position: absolute;
+  bottom: 10%;
+
+  display: flex;
+}
+.line {
+  border-bottom: 1px solid #d1ed8e;
+  width: 65rem;
+  margin-bottom: 25px;
+}
+
+.oval {
+  border: 1px solid #d1ed8e;
+  border-radius: 15px 15px;
+  width: 5rem;
+  height: 1rem;
+  background-color: #d1ed8e;
+}
+
+/* footer */
+/* footer */
+footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  z-index: 1;
+}
