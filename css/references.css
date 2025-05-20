@@ -1,15 +1,15 @@
 body {
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-  height: 100%;
-  background-image: url("../images/greenbyte-bg.jpg");
-
-  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
   color: #d1ed8e;
+  min-height: 100%;
+  font-family: "Poppins", sans-serif;
+  background-image: url("../images/greenbyte-bg.jpg");
   background-position: center;
-  object-fit: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* Fixes background to viewport */
 }
 
 /* navbar */
@@ -159,10 +159,9 @@ footer div {
   align-items: end;
   justify-content: space-around;
 
-  position: sticky;
-  top: 0%;
+  position: absolute;
+  bottom: 0%;
   width: 100%;
-  padding: 7px 0px;
 
   border-top: 0.5px solid #d1ed8e;
   padding: 7px 0px;
@@ -179,5 +178,5 @@ footer .circle {
 
   position: absolute;
   top: -40%;
-  left: 15%;
+  left: 3%;
 }
