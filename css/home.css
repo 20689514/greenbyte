@@ -163,6 +163,7 @@ main span {
   background-color: #d1ed8e;
   color: #6f744d;
   cursor: pointer;
+  transition: all 0.25s ease;
 }
 
 /* footer */
